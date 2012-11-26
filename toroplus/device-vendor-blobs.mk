@@ -58,7 +58,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HiddenMenu \
     BIP \
-    SDM \
     SecPhone \
     SyncMLSvc
-
