@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/samsung/toroplus/proprietary/system/bin/fRom:system/bin/fRom \
     vendor/samsung/toroplus/proprietary/system/bin/wmdsi:system/bin/wmdsi \
+    vendor/samsung/toroplus/proprietary/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/toroplus/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/toroplus/proprietary/system/lib/libsyncml_core.so:system/lib/libsyncml_core.so \
     vendor/samsung/toroplus/proprietary/system/lib/libsyncml_port.so:system/lib/libsyncml_port.so \
