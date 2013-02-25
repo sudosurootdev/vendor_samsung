@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+# Atemp fix for bluetooth, using Tilapia's fix
+PRODUCT_COPY_FILES += \
+    vendor/asus/tilapia/proprietary/bluetooth.default.so:system/lib/hw/bluetooth.default.so
+
 PRODUCT_PACKAGES := \
     bcm2079x_firmware \
     bcm2079x_pre_firmware \
