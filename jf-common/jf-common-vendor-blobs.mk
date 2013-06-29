@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
         vendor/samsung/jf-common/proprietary/bin/thermald:system/bin/thermald \
         vendor/samsung/jf-common/proprietary/etc/thermald-8064.conf:system/etc/thermald-8064.conf \
+        vendor/samsung/jf-common/proprietary/etc/thermald-8064.conf:system/etc/thermald-8064ab.conf \
         vendor/samsung/jf-common/proprietary/etc/thermald-8930.conf:system/etc/thermald-8930.conf \
         vendor/samsung/jf-common/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
         vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
