@@ -1,4 +1,4 @@
-# Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,35 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_STEM := manta/device-partial.mk
 
-# Atemp fix for bluetooth, using Tilapia's fix
-PRODUCT_COPY_FILES += \
-    vendor/asus/tilapia/proprietary/bluetooth.default.so:system/lib/hw/bluetooth.default.so
+$(call inherit-product-if-exists, vendor/audience/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
 
-PRODUCT_PACKAGES := \
-    bcm2079x_firmware \
-    bcm2079x_pre_firmware \
-    bcm43241 \
-    es305_fw \
-    fimc_is_fw \
-    fimc_is_fw2 \
-    libbccArm.sha1 \
-    libbccArm \
-    libbcinfoArm \
-    libclcoreArm \
-    libclcore_neonArm \
-    libdrmdecrypt \
-    libdrmwvmplugin \
-    libGLES_mali \
-    libRSDriverArm \
-    libwvdrm_L1 \
-    libwvm \
-    libWVStreamControlAPI_L1 \
-    maxtouch \
-    mfc_fw \
-    setfile \
-    setfile_4e5 \
-    setfile_6a3 \
-    00060308060501020000000000000000 \
-    020a0000000000000000000000000000 \
-    07060000000000000000000000000000
+PRODUCT_RESTRICT_VENDOR_FILES := owner
