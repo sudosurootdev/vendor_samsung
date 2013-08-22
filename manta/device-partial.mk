@@ -27,5 +27,4 @@ PRODUCT_PACKAGES :=     fimc_is_fw \
     libGLES_mali \
     libmalicore \
     libRSDriverArm \
-    libstagefright_hdcp \
-    es305_fw
+    libstagefright_hdcp
