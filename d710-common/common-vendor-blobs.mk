@@ -16,7 +16,7 @@ PRODUCT_PACKAGES += \
 	libfimc \
 	libUMP
 
-LOCAL_PATH := vendor/samsung/galaxys2-common
+LOCAL_PATH := vendor/samsung/d710-common
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd

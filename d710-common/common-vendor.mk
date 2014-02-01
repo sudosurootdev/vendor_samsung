@@ -13,6 +13,6 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS += vendor/samsung/galaxys2-common/overlay
+DEVICE_PACKAGE_OVERLAYS += vendor/samsung/d710-common/overlay
 
-$(call inherit-product, vendor/samsung/galaxys2-common/common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/d710-common/common-vendor-blobs.mk)
