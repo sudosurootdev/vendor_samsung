@@ -181,8 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinavid/proprietary/etc/wifi/bcmdhd_sta.bin:codinavid/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/codinavid/proprietary/etc/wifi/bcmdhd_p2p.bin:codinavid/etc/wifi/bcmdhd_p2p.bin \
     vendor/samsung/codinavid/proprietary/etc/wifi/bcmdhd_apsta.bin:codinavid/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/codinavid/proprietary/etc/wifi/bcmdhd_mfg.bin:codinavid/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/codinavid/proprietary/etc/wifi/nvram_mfg.txt:codinavid/etc/wifi/nvram_mfg.txt \
     vendor/samsung/codinavid/proprietary/etc/wifi/nvram_net.txt:codinavid/etc/wifi/nvram_net.txt \
     vendor/samsung/codinavid/proprietary/lib/libatparser.so:codinavid/lib/libatparser.so \
     vendor/samsung/codinavid/proprietary/lib/libbassapp.so:codinavid/lib/libbassapp.so \

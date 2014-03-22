@@ -197,8 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinamtr/proprietary/etc/wifi/bcmdhd_sta.bin:codinamtr/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/codinamtr/proprietary/etc/wifi/bcmdhd_p2p.bin:codinamtr/etc/wifi/bcmdhd_p2p.bin \
     vendor/samsung/codinamtr/proprietary/etc/wifi/bcmdhd_apsta.bin:codinamtr/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/codinamtr/proprietary/etc/wifi/bcmdhd_mfg.bin:codinamtr/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/codinamtr/proprietary/etc/wifi/nvram_mfg.txt:codinamtr/etc/wifi/nvram_mfg.txt \
     vendor/samsung/codinamtr/proprietary/etc/wifi/nvram_net.txt:codinamtr/etc/wifi/nvram_net.txt \
     vendor/samsung/codinamtr/proprietary/lib/libatparser.so:codinamtr/lib/libatparser.so \
     vendor/samsung/codinamtr/proprietary/lib/libbassapp.so:codinamtr/lib/libbassapp.so \
