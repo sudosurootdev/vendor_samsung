@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/klte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+	vendor/samsung/klte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/klte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
 	vendor/samsung/klte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
