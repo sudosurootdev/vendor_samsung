@@ -314,11 +314,16 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/samsung/klte/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/samsung/klte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-	vendor/samsung/klte/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-	vendor/samsung/klte/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
-	vendor/samsung/klte/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
-	vendor/samsung/klte/proprietary/lib/drm/libprgenericplugin.so:system/lib/drm/libprgenericplugin.so \
 	vendor/samsung/klte/proprietary/lib/drm/libsdrmplugin.so:system/lib/drm/libsdrmplugin.so \
+	vendor/samsung/klte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+	vendor/samsung/klte/proprietary/lib/drm/libsdrmplugin.so:system/lib/drm/libsdrmplugin.so \
+	vendor/samsung/klte/proprietary/lib/libomafldrm.so:system/lib/libomafldrm.so \
+	vendor/samsung/klte/proprietary/lib/libsdrmagent.so:system/lib/libsdrmagent.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIDivxDrm.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
