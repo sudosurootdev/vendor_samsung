@@ -16,13 +16,27 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+	vendor/samsung/klte/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+	vendor/samsung/klte/proprietary/bin/ccm_gen_cert:system/bin/ccm_gen_cert \
+	vendor/samsung/klte/proprietary/bin/cnd:system/bin/cnd \
+	vendor/samsung/klte/proprietary/bin/cs:system/bin/cs \
 	vendor/samsung/klte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/klte/proprietary/bin/efsks:system/bin/efsks \
 	vendor/samsung/klte/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 	vendor/samsung/klte/proprietary/bin/hvdcp:system/bin/hvdcp \
+	vendor/samsung/klte/proprietary/bin/immvibed:system/bin/immvibed \
+	vendor/samsung/klte/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+	vendor/samsung/klte/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+	vendor/samsung/klte/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	vendor/samsung/klte/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/samsung/klte/proprietary/bin/ks:system/bin/ks \
+	vendor/samsung/klte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+	vendor/samsung/klte/proprietary/bin/mcStarter:system/bin/mcStarter \
+	vendor/samsung/klte/proprietary/bin/mdnsd:system/bin/mdnsd \
+	vendor/samsung/klte/proprietary/bin/mldaemon:system/bin/mldaemon \
 	vendor/samsung/klte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/samsung/klte/proprietary/bin/mobicore-presetup.sh:system/bin/mobicore-presetup.sh \
+	vendor/samsung/klte/proprietary/bin/mobicore-startup.sh:system/bin/mobicore-startup.sh \
 	vendor/samsung/klte/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/klte/proprietary/bin/qcks:system/bin/qcks \
 	vendor/samsung/klte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
@@ -32,6 +46,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/klte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/klte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+	vendor/samsung/klte/proprietary/bin/scranton_RD:system/bin/scranton_RD \
+	vendor/samsung/klte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
+	vendor/samsung/klte/proprietary/bin/ss_conn_daemon:system/bin/ss_conn_daemon \
 	vendor/samsung/klte/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/klte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/klte/proprietary/bin/time_daemon:system/bin/time_daemon \
