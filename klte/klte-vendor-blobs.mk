@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2011 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -74,7 +74,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
-    vendor/samsung/klte/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/cdma/libril.so:system/lib/cdma/libril.so \
 	vendor/samsung/klte/proprietary/lib/cdma/libsec-ril.so:system/lib/cdma/libsec-ril.so \
 	vendor/samsung/klte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+	vendor/samsung/klte/proprietary/lib/drm/libsdrmplugin.so:system/lib/drm/libsdrmplugin.so \
 	vendor/samsung/klte/proprietary/lib/F16QL_libchromatix_s5k2p2xx_default_video.so:system/lib/F16QL_libchromatix_s5k2p2xx_default_video.so \
 	vendor/samsung/klte/proprietary/lib/F16QL_libchromatix_s5k2p2xx_golfshot.so:system/lib/F16QL_libchromatix_s5k2p2xx_golfshot.so \
 	vendor/samsung/klte/proprietary/lib/F16QL_libchromatix_s5k2p2xx_hdr_liveshot.so:system/lib/F16QL_libchromatix_s5k2p2xx_hdr_liveshot.so \
@@ -172,7 +173,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTs_J_Awb.so:system/lib/F16QS_libTs_J_Awb.so \
 	vendor/samsung/klte/proprietary/lib/gsm/libril.so:system/lib/gsm/libril.so \
 	vendor/samsung/klte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
-	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+	vendor/samsung/klte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
@@ -185,6 +186,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	vendor/samsung/klte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/klte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+	vendor/samsung/klte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/klte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/klte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/klte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
@@ -201,11 +203,13 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/klte/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
 	vendor/samsung/klte/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+	vendor/samsung/klte/proprietary/lib/libomafldrm.so:system/lib/libomafldrm.so \
 	vendor/samsung/klte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/klte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
 	vendor/samsung/klte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/samsung/klte/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
 	vendor/samsung/klte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+	vendor/samsung/klte/proprietary/lib/libsdrmagent.so:system/lib/libsdrmagent.so \
 	vendor/samsung/klte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/klte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/klte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
@@ -243,7 +247,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/F16QS_libchromatix_imx240_common_res2.so:system/vendor/lib/F16QS_libchromatix_imx240_common_res2.so \
 	vendor/samsung/klte/proprietary/vendor/lib/F16QS_libchromatix_imx240_common_res3.so:system/vendor/lib/F16QS_libchromatix_imx240_common_res3.so \
 	vendor/samsung/klte/proprietary/vendor/lib/F16QS_libchromatix_imx240_common.so:system/vendor/lib/F16QS_libchromatix_imx240_common.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
@@ -261,7 +264,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/samsung/klte/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libchromatix_s5k8b1yx_common.so:system/vendor/lib/libchromatix_s5k8b1yx_common.so \
@@ -281,7 +284,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
  	vendor/samsung/klte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -352,6 +357,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqcgesture.so:system/vendor/lib/libqcgesture.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
@@ -366,13 +372,20 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/klte/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+	vendor/samsung/klte/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+	vendor/samsung/klte/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIDivxDrm.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/samsung/klte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/klte/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
