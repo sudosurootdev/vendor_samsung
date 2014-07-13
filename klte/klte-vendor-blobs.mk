@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-	vendor/samsung/klte/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	vendor/samsung/klte/proprietary/bin/ccm_gen_cert:system/bin/ccm_gen_cert \
 	vendor/samsung/klte/proprietary/bin/cnd:system/bin/cnd \
 	vendor/samsung/klte/proprietary/bin/cs:system/bin/cs \
@@ -183,22 +182,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/lib_AnimationEngine_kk44.so:system/lib/lib_AnimationEngine_kk44.so \
 	vendor/samsung/klte/proprietary/lib/libarac.so:system/lib/libarac.so \
 	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_magicshot_bestface.so:system/lib/libarcsoft_magicshot_bestface.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_magicshot_bestphoto.so:system/lib/libarcsoft_magicshot_bestphoto.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_magicshot_common.so:system/lib/libarcsoft_magicshot_common.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_magicshot_drama.so:system/lib/libarcsoft_magicshot_drama.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_magicshot_eraser.so:system/lib/libarcsoft_magicshot_eraser.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_magicshot_picmotion.so:system/lib/libarcsoft_magicshot_picmotion.so \
 	vendor/samsung/klte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_picmotion.so:system/lib/libarcsoft_picmotion.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_preprocessor.so:system/lib/libarcsoft_preprocessor.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-	vendor/samsung/klte/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \
 	vendor/samsung/klte/proprietary/lib/libatomcore.so:system/lib/libatomcore.so \
 	vendor/samsung/klte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/klte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
@@ -222,8 +206,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/samsung/klte/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/klte/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
-	vendor/samsung/klte/proprietary/lib/libmorpho_panorama_wa_for_viewer.so:system/lib/libmorpho_panorama_wa_for_viewer.so \
-	vendor/samsung/klte/proprietary/lib/libmorpho_sensor_fusion_for_viewer.so:system/lib/libmorpho_sensor_fusion_for_viewer.so \
 	vendor/samsung/klte/proprietary/lib/libMP4Converter.so:system/lib/libMP4Converter.so \
 	vendor/samsung/klte/proprietary/lib/libmpegseven.so:system/lib/libmpegseven.so \
 	vendor/samsung/klte/proprietary/lib/libmysound.so:system/lib/libmysound.so \
@@ -244,25 +226,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/klte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
 	vendor/samsung/klte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
-	vendor/samsung/klte/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
-	vendor/samsung/klte/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
-	vendor/samsung/klte/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-	vendor/samsung/klte/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
-	vendor/samsung/klte/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-	vendor/samsung/klte/proprietary/lib/libsomxamre.so:system/lib/libsomxamre.so \
-	vendor/samsung/klte/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-	vendor/samsung/klte/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
-	vendor/samsung/klte/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-	vendor/samsung/klte/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
-	vendor/samsung/klte/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-	vendor/samsung/klte/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-	vendor/samsung/klte/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
-	vendor/samsung/klte/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-	vendor/samsung/klte/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
-	vendor/samsung/klte/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
-	vendor/samsung/klte/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-	vendor/samsung/klte/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-	vendor/samsung/klte/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
 	vendor/samsung/klte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
 	vendor/samsung/klte/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
 	vendor/samsung/klte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
