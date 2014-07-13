@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+	vendor/samsung/klte/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	vendor/samsung/klte/proprietary/bin/ccm_gen_cert:system/bin/ccm_gen_cert \
 	vendor/samsung/klte/proprietary/bin/cnd:system/bin/cnd \
 	vendor/samsung/klte/proprietary/bin/cs:system/bin/cs \
