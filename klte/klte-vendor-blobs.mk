@@ -180,7 +180,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/klte/proprietary/lib/lib_AnimationEngine_kk44.so:system/lib/lib_AnimationEngine_kk44.so \
-	vendor/samsung/klte/proprietary/lib/libarac.so:system/lib/libarac.so \
 	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
 	vendor/samsung/klte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
 	vendor/samsung/klte/proprietary/lib/libatomcore.so:system/lib/libatomcore.so \
