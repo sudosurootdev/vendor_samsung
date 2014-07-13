@@ -212,12 +212,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libomafldrm.so:system/lib/libomafldrm.so \
 	vendor/samsung/klte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/klte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-	vendor/samsung/klte/proprietary/lib/libQdio.so:system/lib/libQdio.so \
-	vendor/samsung/klte/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-	vendor/samsung/klte/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
-	vendor/samsung/klte/proprietary/lib/libqjpegforphotoeditor.so:system/lib/libqjpegforphotoeditor.so \
-	vendor/samsung/klte/proprietary/lib/libQjpeg.so:system/lib/libQjpeg.so \
-	vendor/samsung/klte/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	vendor/samsung/klte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/samsung/klte/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
 	vendor/samsung/klte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
