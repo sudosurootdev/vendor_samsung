@@ -191,6 +191,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/klte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/klte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+	vendor/samsung/klte/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
 	vendor/samsung/klte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/klte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	vendor/samsung/klte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
