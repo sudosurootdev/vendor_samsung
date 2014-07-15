@@ -68,6 +68,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
 	vendor/samsung/klte/proprietary/etc/cne/NsrmConfiguration.xml:system/etc/cne/NsrmConfiguration.xml \
 	vendor/samsung/klte/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+	vendor/samsung/klte/proprietary/etc/data_agent/ctl.dat:system/etc/data_agent/ctl.dat \
+	vendor/samsung/klte/proprietary/etc/data_agent/Domain.dat:system/etc/data_agent/Domain.dat \
+	vendor/samsung/klte/proprietary/etc/data_agent/License.dat:system/etc/data_agent/License.dat \
+	vendor/samsung/klte/proprietary/etc/data_agent/ss_agent.dat:system/etc/data_agent/ss_agent.dat \
+	vendor/samsung/klte/proprietary/etc/data_agent/version.txt:system/etc/data_agent/version.txt \
 	vendor/samsung/klte/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
 	vendor/samsung/klte/proprietary/etc/F16QL_s5k2p2xx_module_info.xml:system/etc/F16QL_s5k2p2xx_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QS_imx240_module_info.xml:system/etc/F16QS_imx240_module_info.xml \
