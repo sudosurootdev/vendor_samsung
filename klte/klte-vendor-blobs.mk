@@ -126,8 +126,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/C16QL_libTsAf.so:system/lib/C16QL_libTsAf.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libTs_J_Accm.so:system/lib/C16QL_libTs_J_Accm.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libTs_J_Awb.so:system/lib/C16QL_libTs_J_Awb.so \
-	vendor/samsung/klte/proprietary/lib/cdma/libril.so:system/lib/cdma/libril.so \
-	vendor/samsung/klte/proprietary/lib/cdma/libsec-ril.so:system/lib/cdma/libsec-ril.so \
+	vendor/samsung/klte/proprietary/blobs/cdma/lib/libril.so:system/blobs/cdma/lib/libril.so \
+	vendor/samsung/klte/proprietary/blobs/cdma/lib/libsec-ril.so:system/blobs/cdma/lib/libsec-ril.so \
 	vendor/samsung/klte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/klte/proprietary/lib/drm/libsdrmplugin.so:system/lib/drm/libsdrmplugin.so \
 	vendor/samsung/klte/proprietary/lib/F16QL_libchromatix_s5k2p2xx_default_video.so:system/lib/F16QL_libchromatix_s5k2p2xx_default_video.so \
@@ -178,8 +178,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTsAf.so:system/lib/F16QS_libTsAf.so \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTs_J_Accm.so:system/lib/F16QS_libTs_J_Accm.so \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTs_J_Awb.so:system/lib/F16QS_libTs_J_Awb.so \
-	vendor/samsung/klte/proprietary/lib/gsm/libril.so:system/lib/gsm/libril.so \
-	vendor/samsung/klte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
+	vendor/samsung/klte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
+	vendor/samsung/klte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
 	vendor/samsung/klte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
