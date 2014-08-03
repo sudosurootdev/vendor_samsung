@@ -18,6 +18,7 @@
 PRODUCT_PACKAGES += \
     libtime_genoff \
     com.qualcomm.location \
-    PPPreference
+    PPPreference \
+    TimeService
 
 $(call inherit-product, vendor/samsung/klte/klte-vendor-blobs.mk)
