@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
 	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
 	vendor/samsung/klte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_am.bin:system/etc/firmware/higalaxy_en_us_am.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_gram6.bin:system/etc/firmware/higalaxy_en_us_gram6.bin \
+	vendor/samsung/klte/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
 	vendor/samsung/klte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
