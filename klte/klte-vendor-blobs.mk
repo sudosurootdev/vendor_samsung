@@ -17,6 +17,8 @@
 
 # rearranged for vanir's unified blob layout
 PRODUCT_COPY_FILES += \
+	vendor/samsung/klte/proprietary/blobs/nfc/lib/hw/nfc_nci.msm8974.so:system/blobs/nfc/lib/hw/nfc_nci.msm8974.so \
+	vendor/samsung/klte/proprietary/blobs/nfcspr/lib/hw/nfc_nci.msm8974.so:system/blobs/nfcspr/lib/hw/nfc_nci.msm8974.so \
 	vendor/samsung/klte/proprietary/blobs/cdma/lib/libril.so:system/blobs/cdma/lib/libril.so \
 	vendor/samsung/klte/proprietary/blobs/cdma/lib/libsec-ril.so:system/blobs/cdma/lib/libsec-ril.so \
 	vendor/samsung/klte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
