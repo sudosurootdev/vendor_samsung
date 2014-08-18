@@ -22,7 +22,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/blobs/cdma/lib/libril.so:system/blobs/cdma/lib/libril.so \
 	vendor/samsung/klte/proprietary/blobs/cdma/lib/libsec-ril.so:system/blobs/cdma/lib/libsec-ril.so \
 	vendor/samsung/klte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
-	vendor/samsung/klte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
+	vendor/samsung/klte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so
+
+PRODUCT_COPY_FILES += \
+	vendor/samsung/klte/proprietary/lib/libsrib_outfocus.so:system/lib/libsrib_outfocus.so \
+	vendor/samsung/klte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
