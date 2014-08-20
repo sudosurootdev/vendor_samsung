@@ -295,12 +295,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+	vendor/samsung/klte/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
 	vendor/samsung/klte/proprietary/bin/efsks:system/bin/efsks \
 	vendor/samsung/klte/proprietary/bin/ks:system/bin/ks \
 	vendor/samsung/klte/proprietary/bin/qcks:system/bin/qcks \
 	vendor/samsung/klte/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/samsung/klte/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/klte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/klte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/klte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
