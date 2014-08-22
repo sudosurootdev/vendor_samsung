@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so
 
 PRODUCT_COPY_FILES += \
+	vendor/samsung/klte/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
+
+PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
