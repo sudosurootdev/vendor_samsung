@@ -39,6 +39,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
+	vendor/samsung/klte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
+	vendor/samsung/klte/proprietary/bin/sensorservice:system/bin/sensorservice \
 	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
 	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
 	vendor/samsung/klte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -177,6 +179,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTsAf.so:system/lib/F16QS_libTsAf.so \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTs_J_Accm.so:system/lib/F16QS_libTs_J_Accm.so \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTs_J_Awb.so:system/lib/F16QS_libTs_J_Awb.so \
+	vendor/samsung/klte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+	vendor/samsung/klte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+	vendor/samsung/klte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
 	vendor/samsung/klte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
 	vendor/samsung/klte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
 	vendor/samsung/klte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
