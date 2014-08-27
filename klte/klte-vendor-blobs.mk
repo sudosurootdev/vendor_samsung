@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libsrib_outfocus.so:system/lib/libsrib_outfocus.so \
 	vendor/samsung/klte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
 	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so
+	vendor/samsung/klte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
