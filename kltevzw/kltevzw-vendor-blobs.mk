@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kltevzw/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/kltevzw/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/kltevzw/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/kltevzw/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/kltevzw/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/kltevzw/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/kltevzw/proprietary/bin/rmt_storage:system/bin/rmt_storage \
