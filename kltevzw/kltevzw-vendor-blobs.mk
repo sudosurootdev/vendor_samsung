@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/samsung/kltevzw/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
