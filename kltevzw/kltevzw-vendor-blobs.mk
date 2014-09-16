@@ -16,8 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/kltevzw/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
-    vendor/samsung/kltevzw/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0212_K_VZW_VM_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0212_K_VZW_VM_ORC.hcd \
-    vendor/samsung/kltevzw/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/samsung/kltevzw/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0209.0328_K_SPR_VM_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0209.0328_K_SPR_VM_ORC.hcd \
     vendor/samsung/kltevzw/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/samsung/kltevzw/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/kltevzw/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
@@ -25,10 +24,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/kltevzw/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/samsung/kltevzw/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
+    vendor/samsung/kltevzw/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
+    vendor/samsung/kltevzw/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
+    vendor/samsung/kltevzw/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/samsung/kltevzw/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -42,13 +45,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kltevzw/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/kltevzw/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/kltevzw/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/kltevzw/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/kltevzw/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/kltevzw/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/kltevzw/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/kltevzw/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/kltevzw/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/kltevzw/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/kltevzw/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/kltevzw/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/kltevzw/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/kltevzw/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/kltevzw/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/kltevzw/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
