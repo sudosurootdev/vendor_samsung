@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/libbcc.so:system/lib/libbcc.so \
     vendor/samsung/klimtwifi/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/klimtwifi/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/klimtwifi/proprietary//system/vendor/firmware/fimc_is_fw2.bin:system//system/vendor/firmware/fimc_is_fw2.bin \
+    vendor/samsung/klimtwifi/proprietary//system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system//system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/klimtwifi/proprietary//system/vendor/firmware/setfile_6b2.bin:system//system/vendor/firmware/setfile_6b2.bin \
     vendor/samsung/klimtwifi/proprietary//system/vendor/firmware/setfile_imx134.bin:system//system/vendor/firmware/setfile_imx134.bin \
