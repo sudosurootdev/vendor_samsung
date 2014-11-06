@@ -201,14 +201,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/klte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/klte-common/proprietary/bin/drmserver:system/bin/drmserver \
     vendor/samsung/klte-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/klte-common/proprietary/lib/drm/libsdrmplugin.so:system/lib/drm/libsdrmplugin.so \
-    vendor/samsung/klte-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/samsung/klte-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/klte-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \

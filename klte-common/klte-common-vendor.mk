@@ -18,10 +18,6 @@
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libmm-abl \
-    libtime_genoff \
-    libwvdrmengine \
-    libwvdrm_L1 \
-    libwvm \
-    libWVStreamControlAPI_L1
+    libtime_genoff
 
 $(call inherit-product, vendor/samsung/klte-common/klte-common-vendor-blobs.mk)
