@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     libHevcSwDecoder \
     libmm-abl \
-    libtime_genoff \
-    TimeService
+    libtime_genoff
 
 $(call inherit-product, vendor/samsung/klte-common/klte-common-vendor-blobs.mk)
