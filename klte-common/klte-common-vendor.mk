@@ -16,6 +16,8 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    KTweaker \
+    KTmonitor \
     TimeService \
     libHevcSwDecoder \
     libmm-abl \
